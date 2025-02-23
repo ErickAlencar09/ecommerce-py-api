@@ -1,0 +1,21 @@
+# Ignorar arquivos e diretórios relacionados a ambientes virtuais
+.env
+venv/
+ENV/
+env/
+
+# Ignorar arquivos de configuração de ambiente
+*.env
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de teste
+test/
+tests/
